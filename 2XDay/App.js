@@ -81,17 +81,6 @@ class HomeScreen extends Component<Props> {
     this.handlePress = this.handlePress.bind(this);
   }
 
-  toggleImage() {
-    if (this.state.imgOpacity === 1) {
-      this.setState({
-        imgOpacity: 0
-      })
-    } else {
-      this.setState({
-        imgOpacity: 1
-      })
-    }
-  }
 
   handlePress()
   {
@@ -114,7 +103,7 @@ class HomeScreen extends Component<Props> {
       <View style={styles.container}>
         
         <Image source={require('./2XLogo.png')} />
-        <Text style={styles.brushedyet}>Have you brushed yet, Denice?</Text>
+        <Text style={styles.brushedyet}>Have you brushed yet, John?</Text>
 
 
         <TouchableOpacity onPress = {()  => this.handlePress()}>

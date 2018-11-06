@@ -1,4 +1,8 @@
 # Smile
+
+Link to project demo:
+https://devpost.com/software/smile-pge6li
+
 Healthy habit creating app for oral hygiene
 
 Contributor: Nolan Pokpongkiat
